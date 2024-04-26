@@ -1,0 +1,120 @@
+@import "_top-nav.css";
+@import "_slider.css";
+@import "_shipping.css";
+@import "_categories.css";
+@import "_special-offers.css";
+@import "_popular-products.css";
+@import "_banner-section-1.css";
+@import "_footer.css";
+@import "_login-form.css";
+@import "_pruduct-breadcrumb.css";
+@import "_product-desc.css";
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(../fonts/Vazir-Medium.eot) format("eot"),
+    url(../fonts/Vazir-Medium.woff) format("woff"),
+    url(../fonts/Vazir-Medium.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir-Medium;
+}
+
+body {
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .mt-csm-3 {
+    margin-top: 1rem !important;
+  }
+  .mb-csm-3 {
+    margin-bottom: 1rem !important;
+  }
+}
+@media (max-width: 767px) {
+  .mb-cmd-3 {
+    margin-bottom: 1rem !important;
+  }
+}
+@media (max-width: 991px) {
+  .mt-clg-3 {
+    margin-top: 1rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1440px !important;
+  }
+}
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 118px;
+  width: 100%;
+  display: flex !important;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  left: -5px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  right: -5px;
+}
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  width: 46px;
+}
+.owl-carousel .owl-nav .owl-next span,
+.owl-carousel .owl-nav .owl-prev span {
+  display: block;
+  font-size: 66px;
+  background-color: #fff;
+  box-shadow: 0 0 12px 0px #c7c7c7;
+}
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:focus span,
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-prev:focus span {
+  outline: none !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #000;
+}
+
+/* در جلسه 17 این استایل اضافه خواهد شد */
+.owl-carousel-brand .owl-nav {
+  top: 75px !important;
+}
+
+/* zoomy slider customize   */
+.zoom-mousemove {
+  border: none !important  ;
+}

@@ -1,0 +1,110 @@
+/* @font-face {
+  font-family: "iranSansM";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Medium.woff2);
+}
+@font-face {
+  font-family: "iranSansB";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Bold.woff2);
+}
+@font-face {
+  font-family: "iranSansT";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Thin.woff2);
+}
+@font-face {
+  font-family: "iranSansR";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Regular.woff2);
+}
+@font-face {
+  font-family: "iranSansBB";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Black.woff2);
+}
+@font-face {
+  font-family: "iranSansL";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Light.woff2);
+} */
+
+* {
+  font-family: "vazir";
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #4a98f7;
+}
+.container {
+  width: 800px;
+  height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.129);
+}
+.tools-area {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0 15px;
+}
+.tools {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+.tools .color {
+  display: flex;
+  align-items: center;
+}
+input[type="color"] {
+  border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: transparent;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: 2px solid lightgray;
+}
+label,
+i {
+  margin: 0 3px;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+.buttons button {
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  color: #313131;
+  cursor: pointer;
+}
+.buttons .save {
+  background: #4a98f7;
+  color: #fff;
+}
+.buttons .save:hover {
+  background: #2c86f4;
+}
+.buttons .clear:hover {
+  background: lightgray;
+}
+.active i,
+.active label {
+  color: #4a98f7;
+}
+.draw-area canvas {
+  width: 100%;
+  height: 450px;
+  border-radius: 0 0 10px 10px;
+}

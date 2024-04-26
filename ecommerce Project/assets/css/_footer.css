@@ -1,0 +1,70 @@
+.news-latter .row {
+  
+  margin-top: -77px;
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.075);
+
+}
+.news-latter-s1 h6 {
+  font-size: 18px;
+}
+.news-latter-s1 p {
+  font-size: 16px;
+}
+.news-latter-s2 p {
+  font-size: 16px;
+  line-height: 33px;
+}
+.input-news-letter::-webkit-input-placeholder{
+    font-size: 16px;
+}
+.input-news-letter{
+    border-radius:  0!important;
+}
+.news-latter-s3 button {
+    font-size: 14px;
+}
+.main-section-footer h5{
+    font-size: 15px;
+    border-bottom: 3px solid #a09f9f;
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+.footer-nav-custom li a{
+  font-size: 14px;
+    color: #4e4d4d;
+    transition: .5s ease;
+}
+.footer-nav-custom li a:hover{
+    color: #a09f9f;
+}
+
+.support-rules{
+  font-size: 39px;
+  color: rgb(52, 127, 240);
+}
+.tel-support p,.tel-support a{
+font-size: 14px;
+color: #4e4d4d;
+}
+.social-icon p{
+font-size: 15px;
+}
+.social-icon ul li a{
+  color: #afafaf;
+  transition: .5s ease;
+}
+.social-icon ul li a.telegram:hover{
+  color: rgb(45, 121, 236);
+}
+.social-icon ul li a.insta:hover{
+  color: rgb(214, 80, 2);
+}
+.social-icon ul li a.twi:hover{
+  color: rgb(34, 103, 206);
+}
+.social-icon ul li a.faceb:hover{
+  color: rgb(14, 80, 179);
+}
+.social-icon ul li a.rss:hover{
+  color: rgb(243, 149, 72);
+}

@@ -1,0 +1,130 @@
+/* @font-face {
+  font-family: "iranSansM";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Medium.woff2);
+}
+@font-face {
+  font-family: "iranSansB";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Bold.woff2);
+}
+@font-face {
+  font-family: "iranSansT";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Thin.woff2);
+}
+@font-face {
+  font-family: "iranSansR";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Regular.woff2);
+}
+@font-face {
+  font-family: "iranSansBB";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Black.woff2);
+}
+@font-face {
+  font-family: "iranSansL";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Light.woff2);
+} */
+
+* {
+	font-family: 'vazir';
+	padding: 0px;
+	direction: rtl;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 70vh;
+	flex-direction: column;
+	margin-top: 50px;
+}
+.shop {
+	display: flex;
+	width: 80%;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	min-height: 300px;
+	color: #b54200;
+	background: #edb18f;
+	border-radius: 8px;
+}
+.products {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.product {
+	background: #eee;
+	padding: 18px 12px;
+	box-shadow: 2px 4px 16px 0 #0000002d;
+	border-radius: 8px;
+	margin: 16px 0;
+}
+.product h3 {
+	text-align: center;
+	font-size: 21px;
+	color: #983800;
+	margin-bottom: 8px;
+}
+.product h5 {
+	text-align: center;
+	color: #b75c27;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+.product button {
+	padding: 10px 14px;
+	background: #5cb161;
+	border: 0;
+	outline: 0;
+	margin: 10px 0;
+	cursor: pointer;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.cart {
+	margin-top: 20px;
+	width: 80%;
+	height: fit-content;
+	background: #ec5d35;
+	padding: 0 0 20px 0;
+	border-radius: 8px;
+	text-align: center;
+}
+.header {
+	color: #fff;
+}
+.items {
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto;
+	width: 96%;
+	justify-content: center;
+	padding: 0 0 20px 0;
+	color: #fff;
+	height: 100%;
+}
+.item {
+	display: flex;
+	margin: 4px;
+	background: #ffffff32;
+	color: #fff;
+	flex-direction: row-reverse;
+	padding: 10px 16px;
+	border-radius: 4px;
+	justify-content: space-between;
+}
+.remove {
+	padding: 4px 8px;
+	background: #d53636;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 4px;
+}

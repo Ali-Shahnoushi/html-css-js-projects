@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint Application</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v20.1.0/dist/font-face.css" rel="stylesheet"
+      type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="tools-area">
+        <div class="tools" id="tools">
+          <div class="eraser">
+            <i class="fa-solid fa-eraser"></i>
+            <label>Eraser</label>
+          </div>
+          <div class="brush active">
+            <i class="fa-solid fa-paint-brush"></i>
+            <label>Brush</label>
+          </div>
+          <div class="color">
+            <i class="fa-solid fa-palette"></i>
+            <label>Choose Color</label>
+            <input type="color" id="color-picker">
+          </div>
+          <input type="range" id="brush-width" min="1" max="10" value="5">
+        </div>
+        <div class="buttons">
+          <button class="clear">clear</button>
+          <button class="save">save</button>
+        </div>
+      </div>
+      <div class="draw-area">
+        <canvas></canvas>
+      </div>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+
+</html>

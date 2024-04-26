@@ -1,0 +1,13 @@
+.cat-desc p{
+font-size: 13px;
+}
+.cat-desc img{
+    width: 100px;
+}
+.cat-hover{
+    transition: .5s ease;
+}
+.cat-hover:hover{
+    z-index: 1;
+    box-shadow: 0 0 7px 1px #ccc;
+}

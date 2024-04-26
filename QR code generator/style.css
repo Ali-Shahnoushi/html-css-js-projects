@@ -1,0 +1,81 @@
+/* @font-face {
+  font-family: "iranSansM";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Medium.woff2);
+}
+@font-face {
+  font-family: "iranSansB";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Bold.woff2);
+}
+@font-face {
+  font-family: "iranSansT";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Thin.woff2);
+}
+@font-face {
+  font-family: "iranSansR";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Regular.woff2);
+}
+@font-face {
+  font-family: "iranSansBB";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Black.woff2);
+}
+@font-face {
+  font-family: "iranSansL";
+  src: url(fonts/Vazirmatn-RD-FD-NL-Light.woff2);
+} */
+* {
+	font-family: 'vazir';
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #5fae49;
+}
+.container {
+	width: 400px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 30px;
+}
+.container .info h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #111;
+}
+.container form {
+	margin: 15px 0 25px;
+}
+.container form :where(input, button) {
+	outline: 0;
+	border: 0;
+	width: 100%;
+	margin: 5px 0;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+}
+.container form input {
+	border: 1px solid #aaa;
+}
+.container form button {
+	background: #59b66d;
+	width: 60%;
+	color: #fff;
+}
+img {
+	width: 80%;
+}
+.container .info {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.hidden {
+	display: none !important;
+}
